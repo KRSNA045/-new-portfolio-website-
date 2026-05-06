@@ -5,18 +5,10 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
-  FaReact,
-  FaNodeJs,
-  FaGitAlt,
-  FaFigma
+  FaReact
 } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiTypescript,
-  SiNextdotjs,
-  SiMongodb,
-  SiFirebase,
-  SiVercel
+  SiTailwindcss
 } from "react-icons/si";
 
 function Skills() {
@@ -32,17 +24,6 @@ function Skills() {
         { name: "JavaScript", icon: <FaJs />, color: "#f0db4f", level: 85 },
         { name: "React", icon: <FaReact />, color: "#61dbfb", level: 90 },
         { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "#38bdf8", level: 95 }
-      ]
-    },
-    {
-      title: "Backend & Tools",
-      skills: [
-        { name: "Node.js", icon: <FaNodeJs />, color: "#68a063", level: 75 },
-        { name: "MongoDB", icon: <SiMongodb />, color: "#47a248", level: 70 },
-        { name: "Firebase", icon: <SiFirebase />, color: "#ffca28", level: 80 },
-        { name: "Git", icon: <FaGitAlt />, color: "#f05032", level: 85 },
-        { name: "Figma", icon: <FaFigma />, color: "#f24e1e", level: 80 },
-        { name: "Vercel", icon: <SiVercel />, color: "#000000", level: 85 }
       ]
     }
   ];
